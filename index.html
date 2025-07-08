@@ -4,47 +4,46 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Bootstrap 4</title>
+    <title>Getting started Bootstrap 4</title>
     <link
       rel="stylesheet"
       href="assets/bootstrap-4.3.1-dist/css/bootstrap.min.css"
     />
   </head>
   <body>
+    <!-- let's do some login form with bootstrap 4 -->
     <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-md-6">
-          <h4>Content</h4>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus
-            voluptate, eum tempore vitae sit necessitatibus molestiae veniam
-            nihil eveniet quaerat! Deserunt maiores magni totam perferendis
-            fugit enim ut facilis ullam?
-          </p>
-          <p>
-            Obcaecati commodi officia saepe temporibus, tempore debitis minima a
-            laboriosam assumenda sed dignissimos itaque quisquam nesciunt eius.
-            Porro facere accusamus itaque ad at, quisquam voluptate cupiditate
-            distinctio magni est dicta.
-          </p>
-          <p>
-            Repudiandae possimus ratione quibusdam placeat praesentium obcaecati
-            dolores tenetur harum illo mollitia, odit dolore quas? Nesciunt
-            neque aperiam, ipsa harum enim explicabo quam sunt cupiditate
-            doloribus dolorem porro, eligendi vel!
-          </p>
-          <p>
-            Alias ipsam blanditiis, recusandae error, eaque aspernatur
-            consequatur voluptas porro temporibus quasi, incidunt voluptatum
-            totam praesentium. Aliquid commodi ipsa, molestiae quia velit
-            doloremque a, illum, autem voluptatibus pariatur incidunt saepe?
-          </p>
-          <p>
-            Illo quibusdam quasi consequuntur recusandae dolores veniam,
-            expedita porro enim est reiciendis quos ipsa aliquid excepturi quis
-            reprehenderit deserunt quod corrupti, placeat perspiciatis atque
-            laborum repellendus, harum quisquam voluptate. Culpa!
-          </p>
+      <div
+        class="row justify-content-center align-items-center"
+        style="height: 100vh"
+      >
+        <div class="col-md-5">
+          <div class="card">
+            <div class="card-header">LOGIN</div>
+            <div class="card-body">
+              <form action="" autocomplete="off">
+                <div class="form-group mb-3">
+                  <label for="email">Email Address</label>
+                  <input
+                    type="text"
+                    name="email"
+                    id="email"
+                    class="form-control"
+                  />
+                </div>
+                <div class="form-group mb-3">
+                  <label for="password">Password</label>
+                  <input
+                    type="text"
+                    name="password"
+                    id="password"
+                    class="form-control"
+                  />
+                </div>
+                <button type="submit" class="btn btn-primary">LOGIN</button>
+              </form>
+            </div>
+          </div>
         </div>
       </div>
     </div>
